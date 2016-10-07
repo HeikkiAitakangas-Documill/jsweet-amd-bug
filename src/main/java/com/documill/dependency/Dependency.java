@@ -1,11 +1,10 @@
 
 package com.documill.dependency;
 
-public class Dependency
-{
+public class Dependency {
 
-  public static int dependency()
-  {
-    return 0;
-  }
+	public static int dependency() {
+		System.out.println("called dependency");
+		return 0;
+	}
 }
